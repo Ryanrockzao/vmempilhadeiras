@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, 
+  maximum-scale=5.0, minimum-scale=0.5">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <nav role="navigation">
+    <div class="nav-menu" id="nav-menu">
+      <div class="logo">
+        <img src="design/4804ecac-9926-45ac-8e3d-9597da05b8e1.png" 
+        alt="logo da empresa">
+        <h1>VM</h1>
+      </div>
+      <div class="links">
+        <a href="#contato">Contato</a>
+        <a href="#sobre">Sobre</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="toggleResponsive()">&#9776;</a>
+    </div>
+  </nav>   
+  <section class="section-services" role="main">
+    <div class="text">
+      <h1>SERVIÇO DE QUALIDADE</h1>
+      <p>Garantimos sempre a melhor qualidade de suas maquinas e equipamentos, 
+        estaremos sempre dispostos a lhe proporcionar o desempenho máximo que 
+        seu equipamento pode alcançar, com nossos serviços iremos te dar toda 
+        satisfação que procura em uma manutenção.</p>
+    </div>
+    <div class="slide-container">
+      <div class="item fade">
+        <div class="numbertext">1 / 4</div>
+        <img src="design/Screenshot_1.png" style="width:100%">
+      </div>
+      <div class="item fade">
+        <div class="numbertext">2 / 4</div>
+        <img src="design/Screenshot_2.png" style="width:100%">
+      </div>
+      <div class="item fade">
+        <div class="numbertext">3 / 4</div>
+        <img src="design/Screenshot_3.png" style="width:100%">
+      </div>
+      <div class="item fade">
+        <div class="numbertext">4 / 4</div>
+        <img src="design/Screenshot_4.png" style="width:100%">
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+  </section>
+  <div id="sobre">
+    <div class="sobre-text">
+      <p><span class="br1">NÃO COBRAMOS PELO DESLOCAMENTO, NEM PELA VISITA!</span><br>
+        <ul>
+          <li><span class="br3">Garantimos a nossa chegada até você, na area ao redor 
+          de Belo Horizonte. Você recebe um serviço de qualidade, sem surpresas 
+          desagradáveis na conta!</span><br></li>
+          <li><span class="br2">+ de 200KM de área de atendimento.</span><br></li>
+          <li><span class="br2">+ de 500 clientes satisfeitos!</span><br></li>
+          <li><span class="br3">Precisando de manutenção para sua empilhadeira? Nós 
+          cuidamos de empilhadeiras de todas as marcas, oferecendo um serviço 
+          especializado e de confiança.</span><br></li>
+          <li><span class="br3">Nossa equipe de técnicos entende suas necessidades e 
+          está preparada para resolver qualquer problema com eficiência e 
+          rapidez, eliminando suas dores de cabeça.</span><br></li>
+          <li><span class="br3">Trabalhamos apenas com peças originais e de 
+          procedência garantida, asseguramos a durabilidade e o bom desempenho 
+          do seu equipamento.</span> </li>
+        </ul>
+      </p>
+    </div>
+    <div class="sobre-imagem">
+      <img src="design/Screenshot_6.png" alt="">
+    </div>
+  </div>
+  <div id="contato">
+    <div class="contatoBtn">
+      <button><a href="https://wa.me/31991125510" target="_blank" 
+      rel="noopener noreferrer"><i class="fa fa-whatsapp"></i>FAÇA SEU ORÇAMENTO</a></button>
+    </div>
+  </div>
+  <footer role="contentinfo">
+    <div class="social">
+      <a href="https://www.instagram.com/vm.empilhadeiras/" target="_blank" 
+      rel="noopener noreferrer"><i target="_blank" class="fa fa-instagram">vm.empilhadeiras</i></a>
+      <a href="mailto: vm.manutencoes2023@gmail.com" target="_blank" 
+      rel="noopener noreferrer" id="email">&#9993;vm.manutencoes2023@gmail.com</a>
+    </div>
+  </footer>
+<script src="main.js"></script>
+</body>
+</html>
